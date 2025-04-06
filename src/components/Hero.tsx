@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { ArrowRight, GitHub, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
 
 const Hero = () => {
   useEffect(() => {
@@ -55,7 +55,7 @@ const Hero = () => {
             
             <div className="flex items-center gap-6">
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors">
-                <GitHub size={22} />
+                <Github size={22} />
               </a>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors">
                 <Linkedin size={22} />
