@@ -34,7 +34,7 @@ const About = () => {
             <div className="relative z-10 w-5/6 mx-auto md:ml-auto">
               <div className="aspect-square rounded-md overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                  src="src/components/Myimg.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
                 />
