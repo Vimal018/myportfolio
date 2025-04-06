@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -16,19 +16,19 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center gap-6 mb-4 md:mb-0">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+            <a href="https://github.com/Vimal018" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
               <Github size={20} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+            <a href="https://www.linkedin.com/in/vimal-r-m-c-0735a8239/" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
               <Linkedin size={20} />
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
-              <Twitter size={20} />
+            <a href="https://instagram.com/vimal_it" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+              <Instagram size={20} />
             </a>
           </div>
           
           <p className="text-sm text-slate">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Vimal. All rights reserved.
           </p>
         </div>
       </div>

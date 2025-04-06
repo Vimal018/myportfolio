@@ -1,6 +1,6 @@
 
 import React, { useEffect } from 'react';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Github, Instagram, Linkedin, Twitter } from 'lucide-react';
 
 const Hero = () => {
   useEffect(() => {
@@ -42,13 +42,13 @@ const Hero = () => {
             <span className="inline-block animate-bounce-slow">Hi,</span> my name is
           </p>
           <h1 className="text-5xl md:text-7xl font-bold text-slate-light mb-4 animate-on-scroll bg-gradient-to-r from-slate-light via-white to-slate-light bg-clip-text text-transparent" style={{ animationDelay: "0.1s" }}>
-            John Doe.
+            Vimal
           </h1>
           <h2 className="text-4xl md:text-6xl font-bold text-slate mb-8 animate-on-scroll" style={{ animationDelay: "0.2s" }}>
             I build things for the web.
           </h2>
           <p className="text-slate text-lg md:text-xl mb-12 max-w-xl animate-on-scroll" style={{ animationDelay: "0.3s" }}>
-            I'm a frontend developer specializing in building exceptional digital experiences. 
+            I'm a full Stack developer specializing in building exceptional digital experiences. 
             Currently, I'm focused on building accessible, human-centered products.
           </p>
           
@@ -62,14 +62,14 @@ const Hero = () => {
             </a>
             
             <div className="flex items-center gap-6">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+              <a href="https://github.com/Vimal018" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
                 <Github size={22} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+              <a href="https://www.linkedin.com/in/vimal-r-m-c-0735a8239/" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
                 <Linkedin size={22} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
-                <Twitter size={22} />
+              <a href="https://instagram.com/vimal_it" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-highlight transition-colors hover:scale-110 transform duration-200">
+                <Instagram size={22} />
               </a>
             </div>
           </div>
