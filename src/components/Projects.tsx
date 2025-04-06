@@ -5,7 +5,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   
-  const filters = ['All', 'React', 'Vue', 'UI/UX', 'Backend'];
+  const filters = ['All', 'React', 'Backend'];
   
   const projects = [
     {
@@ -18,15 +18,6 @@ const Projects = () => {
       category: "React"
     },
     {
-      title: "Task Management App",
-      description: "A productivity tool for managing tasks with features like drag-and-drop, categories, due dates, and user collaboration.",
-      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2072&auto=format&fit=crop",
-      tags: ["Vue", "Vuex", "Firebase", "Tailwind CSS"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
-      category: "Vue"
-    },
-    {
       title: "Weather Dashboard",
       description: "A responsive weather application that displays current conditions and forecasts based on user location or search.",
       image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?q=80&w=2070&auto=format&fit=crop",
@@ -34,15 +25,6 @@ const Projects = () => {
       liveLink: "https://example.com",
       githubLink: "https://github.com",
       category: "React"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "A dashboard for monitoring and analyzing social media metrics across multiple platforms.",
-      image: "https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?q=80&w=2074&auto=format&fit=crop",
-      tags: ["UI/UX", "Figma", "Prototyping", "User Research"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
-      category: "UI/UX"
     },
     {
       title: "RESTful API Service",
@@ -72,7 +54,7 @@ const Projects = () => {
     <section id="projects" className="py-24 bg-navy-light section-padding">
       <div className="container mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 relative animate-on-scroll">
-          <span className="text-slate-light">My Projects</span>
+          <span className="text-slate-light dark:text-white">My Projects</span>
           <span className="absolute bottom-0 left-0 w-16 h-1 bg-highlight mt-2"></span>
         </h2>
         
@@ -91,11 +73,11 @@ const Projects = () => {
           ))}
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
           {filteredProjects.map((project, index) => (
             <div 
               key={index} 
-              className="group relative bg-navy border border-navy-light rounded-lg overflow-hidden animate-on-scroll"
+              className="group relative bg-navy border border-navy-light rounded-lg overflow-hidden animate-on-scroll hover:border-highlight/30 transition-all duration-300"
               style={{ animationDelay: `${0.1 * index}s` }}
             >
               <div className="aspect-video overflow-hidden">
@@ -109,12 +91,12 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-90"></div>
               
               <div className="absolute bottom-0 left-0 right-0 p-6">
-                <h3 className="text-xl font-bold mb-2 text-slate-light">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-slate-light dark:text-white">{project.title}</h3>
                 <p className="text-slate text-sm mb-4">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, i) => (
-                    <span key={i} className="text-xs bg-navy text-highlight rounded-full px-3 py-1">
+                    <span key={i} className="text-xs bg-navy text-highlight rounded-full px-3 py-1 hover:bg-highlight/20 hover:text-white transition-colors">
                       {tag}
                     </span>
                   ))}

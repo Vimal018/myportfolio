@@ -36,8 +36,8 @@ const Hero = () => {
 
   return (
     <section id="home" className="min-h-screen flex flex-col justify-center pt-16 bg-navy dark:bg-navy-dark text-white section-padding overflow-hidden">
-      <div className="container mx-auto">
-        <div className="max-w-3xl">
+      <div className="container mx-auto relative">
+        <div className="max-w-3xl z-10 relative">
           <p className="font-mono text-highlight mb-5 animate-on-scroll tracking-wider">
             <span className="inline-block animate-bounce-slow">Hi,</span> my name is
           </p>
@@ -73,6 +73,27 @@ const Hero = () => {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Animated floating elements */}
+        <div className="absolute top-1/4 right-10 md:right-32 w-64 h-64 opacity-20 dark:opacity-10 animate-float-slow">
+          <div className="w-full h-full rounded-full bg-gradient-to-r from-highlight to-blue-500 blur-2xl"></div>
+        </div>
+        
+        <div className="absolute bottom-1/4 right-20 w-40 h-40 opacity-20 dark:opacity-10 animate-float-medium">
+          <div className="w-full h-full rounded-full bg-gradient-to-r from-purple-500 to-highlight blur-xl"></div>
+        </div>
+        
+        <div className="absolute top-1/3 right-40 w-16 h-16 animate-spin-slow opacity-40 dark:opacity-20">
+          <div className="w-full h-full bg-highlight blur-sm rotate-45"></div>
+        </div>
+
+        <div className="absolute top-20 left-1/4 w-24 h-24 animate-float-fast opacity-10 dark:opacity-5">
+          <div className="w-full h-full rounded-lg bg-white blur-md"></div>
+        </div>
+
+        <div className="absolute top-1/2 left-20 w-8 h-8 animate-ping-slow opacity-20 dark:opacity-10">
+          <div className="w-full h-full rounded-full bg-highlight blur-sm"></div>
         </div>
       </div>
       
