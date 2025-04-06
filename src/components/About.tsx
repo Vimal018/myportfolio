@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const About = () => {
@@ -13,20 +12,27 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="animate-on-scroll" style={{ animationDelay: "0.1s" }}>
             <p className="text-slate mb-6">
-              Hello! My name is Vimal and I enjoy creating things that live on the internet. 
-              My interest in web development started back in 2012 when I decided to try editing 
-              custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+              Hey there! I’m Vimal, a passionate and curious full-stack developer from Madurai, Tamil Nadu.
+              I specialize in building clean and interactive user interfaces using modern web technologies like 
+              <span className="text-highlight"> React, TypeScript, and Tailwind CSS</span>.
             </p>
-            
+
             <p className="text-slate mb-6">
-              Fast-forward to today, and I've had the privilege of working at an advertising agency, 
-              a start-up, a huge corporation, and a student-led design studio. My main focus these 
-              days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+              I started with HTML & CSS, and over time, I’ve worked with the full MERN stack. 
+              One of my recent highlights was leading a smart agricultural project — an AI-powered platform 
+              to help small-scale farmers with disease detection, soil insights, and government schemes. 
+              It combines machine learning, multi-language support, and real-time features.
             </p>
-            
+
+            <p className="text-slate mb-6">
+              I’ve also completed a two-month internship at Thanvi Tech where I built AJAX logins, 
+              face detection features, and e-commerce banners. Through this, I strengthened my practical knowledge 
+              of full-stack development and teamwork.
+            </p>
+
             <p className="text-slate">
-              I also recently launched a course that covers everything you need to build a web app 
-              with the Spotify API using Node & React.
+              Currently, I’m focusing on building intuitive digital products, leveling up my backend with TypeScript,
+              and creating projects that solve real-world problems. I’m always up for learning something new and collaborating on impactful ideas!
             </p>
           </div>
           
@@ -35,7 +41,7 @@ const About = () => {
               <div className="aspect-square rounded-md overflow-hidden">
                 <img 
                   src="/Myimg.jpg" 
-                  alt="Profile" 
+                  alt="Vimal" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"
                 />
               </div>
