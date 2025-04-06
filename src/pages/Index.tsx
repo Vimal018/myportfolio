@@ -7,18 +7,21 @@ import Skills from '../components/Skills';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import { ThemeProvider } from '@/components/ThemeProvider';
 
 const Index = () => {
   return (
-    <div className="bg-navy text-white overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
+      <div className="bg-navy dark:bg-navy-dark text-white overflow-x-hidden transition-colors duration-300">
+        <Navbar />
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 };
 
