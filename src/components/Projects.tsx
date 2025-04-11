@@ -3,6 +3,16 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
+    title: "AI Chatbot",
+    description:
+      "A conversational chatbot with context-awareness that gives news, book recs, health info, and weather using OpenAI and Node.js.",
+    image:
+      "https://assets.everspringpartners.com/dims4/default/7d30562/2147483647/strip/true/crop/1588x500+0+0/resize/800x252!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Fd6%2Fe4%2Faea7ceab448ab6ccfe774e7d5e47%2Fscu-msba-blog-2023-whatisachatbot-headerimage-v1.jpg",
+    tags: ["Node.js", "OpenAI", "Express", "React", "Chatbot"],
+    liveLink: "https://aichatbot-eight-indol.vercel.app/",
+    githubLink: "https://github.com/vimal018/aichatbot",
+  },
+  {
     title: "Smart Farming Assistant",
     description:
       "An intelligent assistant helping farmers with crop disease detection, soil classification, government schemes and multilingual support using ML and modern frontend technologies.",
@@ -21,16 +31,6 @@ const projects = [
     tags: ["Python", "Flask", "ML", "Classification", "Recommendation"],
     liveLink: "https://croprecommend.example.com",
     githubLink: "https://github.com/Vimal018/soil-classification-and-crop-recommendation",
-  },
-  {
-    title: "AI Chatbot",
-    description:
-      "A conversational chatbot with context-awareness that gives news, book recs, health info, and weather using OpenAI and Node.js.",
-    image:
-      "https://assets.everspringpartners.com/dims4/default/7d30562/2147483647/strip/true/crop/1588x500+0+0/resize/800x252!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Fd6%2Fe4%2Faea7ceab448ab6ccfe774e7d5e47%2Fscu-msba-blog-2023-whatisachatbot-headerimage-v1.jpg",
-    tags: ["Node.js", "OpenAI", "Express", "React", "Chatbot"],
-    liveLink: "https://aichatbot-eight-indol.vercel.app/",
-    githubLink: "https://github.com/vimal018/aichatbot",
   },
   {
     title: "Bookstore API",
