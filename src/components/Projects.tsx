@@ -5,7 +5,7 @@ const projects = [
   {
     title: "Smart Farming Assistant",
     description:
-      "An intelligent assistant helping farmers with crop disease detection, soil classification, govenrment schemes and multilingual support using ML and modern frontend technologies.",
+      "An intelligent assistant helping farmers with crop disease detection, soil classification, government schemes and multilingual support using ML and modern frontend technologies.",
     image:
       "http://porch.com/advice/wp-content/uploads/2021/11/pexels-pixabay-235725.jpg",
     tags: ["React", "TypeScript", "ML", "AI", "Multi-language"],
