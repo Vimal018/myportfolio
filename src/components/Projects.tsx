@@ -29,8 +29,8 @@ const projects = [
     image:
       "https://assets.everspringpartners.com/dims4/default/7d30562/2147483647/strip/true/crop/1588x500+0+0/resize/800x252!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Fd6%2Fe4%2Faea7ceab448ab6ccfe774e7d5e47%2Fscu-msba-blog-2023-whatisachatbot-headerimage-v1.jpg",
     tags: ["Node.js", "OpenAI", "Express", "React", "Chatbot"],
-    liveLink: "https://aibot.example.com",
-    githubLink: "https://github.com/vimal018/aichat",
+    liveLink: "https://aichatbot-eight-indol.vercel.app/",
+    githubLink: "https://github.com/vimal018/aichatbot",
   },
   {
     title: "Bookstore API",
