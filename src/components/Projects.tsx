@@ -20,7 +20,7 @@ const projects = [
       "http://porch.com/advice/wp-content/uploads/2021/11/pexels-pixabay-235725.jpg",
     tags: ["React", "TypeScript", "ML", "AI", "Multi-language"],
     liveLink: "https://agribot.example.com",
-    githubLink: "https://github.com/yourname/agribot",
+    githubLink: "https://github.com/Vimal018/smart-farming-assistant",
   },
   {
     title: "Crop Recommendation and Soil Classification",
