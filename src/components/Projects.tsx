@@ -23,14 +23,14 @@ const projects = [
     githubLink: "https://github.com/Vimal018/smart-farming-assistant",
   },
   {
-    title: "Crop Recommendation and Soil Classification",
+    title: "MindScribe",
     description:
-      "A machine learning model that classifies soil types and recommends suitable crops based on key soil parameters and environmental factors.",
+      "An AI-powered mental wellness journal that helps users track emotions, generate insights, and express thoughts through text or voice input.",
     image:
-      "https://whc.unesco.org/uploads/thumbs/activity_725-2148-704-20220308132126.jpg",
-    tags: ["Python", "Flask", "ML", "Classification", "Recommendation"],
-    liveLink: "https://croprecommend.example.com",
-    githubLink: "https://github.com/Vimal018/soil-classification-and-crop-recommendation",
+      "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=800&q=80",
+    tags: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "OpenRouter", "Clerk"],
+    liveLink: "https://mindscribe-six.vercel.app/",
+    githubLink: "https://github.com/Vimal018/mindscribe",
   },
   {
     title: "Bookstore API",
@@ -52,50 +52,53 @@ const Projects = () => {
           <span className="text-slate-light dark:text-white">My Projects</span>
           <span className="absolute bottom-0 left-0 w-16 h-1 bg-highlight mt-2"></span>
         </h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="group relative bg-navy border border-navy-light rounded-lg overflow-hidden animate-on-scroll hover:border-highlight/30 transition-all duration-300 shadow-lg hover:shadow-highlight/10"
               style={{ animationDelay: `${0.1 * index}s` }}
             >
               <div className="aspect-video overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
               </div>
-              
+
               <div className="absolute inset-0 bg-gradient-to-t from-navy to-transparent opacity-90"></div>
-              
+
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <h3 className="text-xl font-bold mb-2 text-slate-light dark:text-white">{project.title}</h3>
                 <p className="text-slate text-sm mb-4 line-clamp-3">{project.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, i) => (
-                    <span key={i} className="text-xs bg-navy-dark text-highlight rounded-full px-3 py-1 hover:bg-highlight/20 hover:text-white transition-colors">
+                    <span
+                      key={i}
+                      className="text-xs bg-navy-dark text-highlight rounded-full px-3 py-1 hover:bg-highlight/20 hover:text-white transition-colors"
+                    >
                       {tag}
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex items-center gap-4">
-                  <a 
-                    href={project.liveLink} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-light hover:text-highlight transition-colors transform hover:scale-110"
                     aria-label={`Visit ${project.title} live site`}
                   >
                     <ExternalLink size={18} />
                   </a>
-                  <a 
-                    href={project.githubLink} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-light hover:text-highlight transition-colors transform hover:scale-110"
                     aria-label={`View ${project.title} GitHub repository`}
                   >
