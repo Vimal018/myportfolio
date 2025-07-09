@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap');
 
 @tailwind base;
@@ -17,7 +16,7 @@
     --popover-foreground: 222.2 84% 4.9%;
 
     --primary: 180 100% 60%;
-    --primary-foreground: 222.2 84% 4.9%;
+    --primary-foreground: 0 0% 0%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -48,42 +47,42 @@
   }
 
   .dark {
-    --background: 221 39% 11%;
-    --foreground: 220 21% 78%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
 
-    --card: 221 39% 16%;
-    --card-foreground: 220 21% 78%;
+    --card: 0 0% 0%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 221 39% 16%;
-    --popover-foreground: 220 21% 78%;
+    --popover: 0 0% 0%;
+    --popover-foreground: 0 0% 100%;
 
     --primary: 180 100% 60%;
-    --primary-foreground: 221 39% 11%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 221 39% 16%;
-    --secondary-foreground: 220 21% 78%;
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 221 39% 16%;
-    --muted-foreground: 220 13% 69%;
+    --muted: 0 0% 10%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 221 39% 16%;
-    --accent-foreground: 220 21% 78%;
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 90%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 221 39% 16%;
-    --input: 221 39% 16%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
     --ring: 180 100% 60%;
 
     /* Custom portfolio colors for dark mode */
-    --navy: 221 39% 6%;
-    --navy-light: 221 39% 11%;
-    --navy-dark: 221 39% 4%;
+    --navy: 0 0% 5%;
+    --navy-light: 0 0% 10%;
+    --navy-dark: 0 0% 0%;
     --highlight: 180 100% 60%;
-    --slate: 220 13% 69%;
-    --slate-light: 220 21% 78%;
-    --slate-dark: 220 13% 46%;
+    --slate: 0 0% 70%;
+    --slate-light: 0 0% 80%;
+    --slate-dark: 0 0% 50%;
   }
 
   * {
