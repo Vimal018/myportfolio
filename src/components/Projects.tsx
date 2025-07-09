@@ -47,7 +47,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-24 bg-background section-padding relative overflow-hidden">
+    <section id="projects" className="py-24 bg-muted/30 section-padding relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent pointer-events-none" />
       
