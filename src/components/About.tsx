@@ -8,7 +8,7 @@ const About = () => {
       <div className="absolute top-20 right-20 w-72 h-72 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-20 left-20 w-96 h-96 bg-primary/3 rounded-full blur-3xl" />
       
-      <div className="container mx-auto relative z-10"/>
+      <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-slide-up">
             <span className="gradient-text">About Me</span>
@@ -38,10 +38,13 @@ const About = () => {
                 of full-stack development and teamwork.
               </p>
 
-            <p className="text-slate">
-              Currently, I’m focusing on building intuitive digital products, leveling up my backend with TypeScript,
-              and creating projects that solve real-world problems. I’m always up for learning something new and collaborating on impactful ideas!
-            </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Currently, I'm focusing on building intuitive digital products, leveling up my backend with TypeScript,
+                and creating projects that solve real-world problems. I'm always up for learning something new and collaborating on impactful ideas!
+              </p>
+            </div>
+
+           
           </div>
           
           <div className="relative animate-slide-up" style={{ animationDelay: "0.2s" }}>
