@@ -11,7 +11,7 @@ const projects = [
       "http://porch.com/advice/wp-content/uploads/2021/11/pexels-pixabay-235725.jpg",
     tags: ["React", "TypeScript", "ML", "AI", "Multi-language"],
     liveLink: "https://agribot.example.com",
-    githubLink: "https://github.com/yourname/agribot",
+    githubLink: "https://github.com/Vimal018/smart-farming-assistant",
   },
   {
     title: "Crop Recommendation and Soil Classification",
@@ -30,7 +30,7 @@ const projects = [
     image:
       "https://assets.everspringpartners.com/dims4/default/7d30562/2147483647/strip/true/crop/1588x500+0+0/resize/800x252!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2Fd6%2Fe4%2Faea7ceab448ab6ccfe774e7d5e47%2Fscu-msba-blog-2023-whatisachatbot-headerimage-v1.jpg",
     tags: ["Node.js", "OpenAI", "Express", "React", "Chatbot"],
-    liveLink: "https://aibot.example.com",
+    liveLink: "https://aichat-one-zeta.vercel.app/",
     githubLink: "https://github.com/vimal018/aichat",
   },
   {
@@ -38,9 +38,9 @@ const projects = [
     description:
       "A personal mental wellness journal that uses AI for analyzing mood and sentiment, with features like daily prompts, voice input/output, multilingual support, and emotion graphs.",
     image:
-      "https://images.unsplash.com/photo-1604328698692-0b5d0ddf55aa?auto=format&fit=crop&w=800&q=80",
+      "https://imgs.search.brave.com/4Z-iZGvK404OlT5945ew9OjGJHPYt_TaYgsxshpWHFg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFNODFUSk1kaUwu/anBn",
     tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Clerk", "Tailwind", "AI"],
-    liveLink: "https://mindscribe.example.com",
+    liveLink: "https://mindscribe-six.vercel.app/",
     githubLink: "https://github.com/vimal018/mindscribe",
   },
 ];
