@@ -34,16 +34,17 @@ const projects = [
     githubLink: "https://github.com/vimal018/aichat",
   },
   {
-    title: "Bookstore API",
+    title: "MindScribe – AI Journal and Mood Tracker",
     description:
-      "RESTful API for managing books, users, and orders with JWT-based auth, search/filter endpoints, and clean architecture.",
+      "A personal mental wellness journal that uses AI for analyzing mood and sentiment, with features like daily prompts, voice input/output, multilingual support, and emotion graphs.",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE-q7jfhKmMXTruqoaTOxcd5sLFTPvyRBk0w&s",
-    tags: ["Node.js", "Express", "REST API", "JWT", "MongoDB"],
-    liveLink: "https://bookapi.example.com",
-    githubLink: "https://github.com/vimal018/bookstore-api",
+      "https://images.unsplash.com/photo-1604328698692-0b5d0ddf55aa?auto=format&fit=crop&w=800&q=80",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Clerk", "Tailwind", "AI"],
+    liveLink: "https://mindscribe.example.com",
+    githubLink: "https://github.com/vimal018/mindscribe",
   },
 ];
+
 
 const Projects = () => {
   return (
