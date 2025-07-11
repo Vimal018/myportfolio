@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🚀 Welcome to My Portfolio
 
-## Project info
+## 📌 Project Info
 
-**URL**: https://lovable.dev/projects/9d507e41-4151-47cf-b78c-c981659bc011
+**Live URL**: [https://myportfolio-dusky-six-76.vercel.app/](https://myportfolio-dusky-six-76.vercel.app/)
 
-## How can I edit this code?
+## 🛠️ How to Edit This Code
 
-There are several ways of editing your application.
+### Option 1: Use Your Preferred IDE
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9d507e41-4151-47cf-b78c-c981659bc011) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+If you'd like to work locally using your favorite editor:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1️⃣ Clone the repository
+ git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2️⃣ Navigate to the project directory
+ cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3️⃣ Install dependencies
+ npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# 4️⃣ Run the development server
+ npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Option 2: Edit Directly on GitHub
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Navigate to the file you want to change.
+- Click the ✏️ "Edit" button in the top right.
+- Commit your changes to update the repository.
 
-**Use GitHub Codespaces**
+### Option 3: Use GitHub Codespaces ⚡
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- On your repo's main page, click the green **Code** button.
+- Choose the **Codespaces** tab.
+- Click **New codespace**.
+- Edit directly and commit when done.
 
-## What technologies are used for this project?
+## 🧰 Tech Stack
 
-This project is built with:
+This project uses the following technologies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- ⚡ Vite
+- 🧠 TypeScript
+- ⚛️ React
+- 🎨 Tailwind CSS
+- 🧩 shadcn-ui
 
-## How can I deploy this project?
+## 🌐 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/9d507e41-4151-47cf-b78c-c981659bc011) and click on Share -> Publish.
+This portfolio is currently deployed using **Vercel**.
 
-## Can I connect a custom domain to my Lovable project?
+🔗 [Visit the live site](https://myportfolio-dusky-six-76.vercel.app/)
 
-Yes it is!
+## 🌟 Custom Domain
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+To connect a custom domain on Vercel:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Go to your [Vercel Dashboard](https://vercel.com/dashboard).
+2. Select your project.
+3. Navigate to **Settings > Domains**.
+4. Click **Add** and follow the steps.
+
+---
+
+📬 For any questions, feel free to reach out!
+

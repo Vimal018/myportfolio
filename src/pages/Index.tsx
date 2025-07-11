@@ -11,8 +11,8 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 const Index = () => {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="portfolio-theme">
-      <div className="bg-navy dark:bg-navy-dark text-white overflow-x-hidden transition-colors duration-300">
+    <ThemeProvider defaultTheme="system" storageKey="portfolio-theme">
+      <div className="bg-background text-foreground overflow-x-hidden transition-colors duration-300">
         <Navbar />
         <Hero />
         <About />
