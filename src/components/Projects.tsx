@@ -10,18 +10,18 @@ const projects = [
     image:
       "http://porch.com/advice/wp-content/uploads/2021/11/pexels-pixabay-235725.jpg",
     tags: ["React", "TypeScript", "ML", "AI", "Multi-language"],
-    liveLink: "https://agribot.example.com",
+    liveLink: "https://smart-farming-assistant-eta.vercel.app/",
     githubLink: "https://github.com/Vimal018/smart-farming-assistant",
   },
-  {
-    title: "Crop Recommendation and Soil Classification",
+   {
+    title: "MindScribe – AI Journal and Mood Tracker",
     description:
-      "A machine learning model that classifies soil types and recommends suitable crops based on key soil parameters and environmental factors.",
+      "A personal mental wellness journal that uses AI for analyzing mood and sentiment, with features like daily prompts, voice input/output, multilingual support, and emotion graphs.",
     image:
-      "https://whc.unesco.org/uploads/thumbs/activity_725-2148-704-20220308132126.jpg",
-    tags: ["Python", "Flask", "ML", "Classification", "Recommendation"],
-    liveLink: "https://croprecommend.example.com",
-    githubLink: "https://github.com/Vimal018/soil-classification-and-crop-recommendation",
+      "https://imgs.search.brave.com/4Z-iZGvK404OlT5945ew9OjGJHPYt_TaYgsxshpWHFg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFNODFUSk1kaUwu/anBn",
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Clerk", "Tailwind", "AI"],
+    liveLink: "https://mindscribe-six.vercel.app/",
+    githubLink: "https://github.com/vimal018/mindscribe",
   },
   {
     title: "AI Chatbot",
@@ -34,14 +34,13 @@ const projects = [
     githubLink: "https://github.com/vimal018/aichat",
   },
   {
-    title: "MindScribe – AI Journal and Mood Tracker",
+    title: "Crop Recommendation and Soil Classification",
     description:
-      "A personal mental wellness journal that uses AI for analyzing mood and sentiment, with features like daily prompts, voice input/output, multilingual support, and emotion graphs.",
+      "A machine learning model that classifies soil types and recommends suitable crops based on key soil parameters and environmental factors.",
     image:
-      "https://imgs.search.brave.com/4Z-iZGvK404OlT5945ew9OjGJHPYt_TaYgsxshpWHFg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFNODFUSk1kaUwu/anBn",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Clerk", "Tailwind", "AI"],
-    liveLink: "https://mindscribe-six.vercel.app/",
-    githubLink: "https://github.com/vimal018/mindscribe",
+      "https://whc.unesco.org/uploads/thumbs/activity_725-2148-704-20220308132126.jpg",
+    tags: ["Python", "Flask", "ML", "Classification", "Recommendation"],
+    githubLink: "https://github.com/Vimal018/soil-classification-and-crop-recommendation",
   },
 ];
 
